@@ -10,7 +10,10 @@ body{
     color: rgba(231, 236, 239, 1);
 }
 
-
+.nav {
+    background-color: rgba(231, 236, 239, 0.15);
+    height: 90px;
+}
 .barra_nav{
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
@@ -22,7 +25,7 @@ body{
 }
 
 .hero{
-    background-image: url(../IMAGENES/Fondo_Hero.jpg);
+    background-image: url(../IMAGENES/Fondo_Hero_PS7.jpg);
     background-position-x: 40%;
     max-height: 100%;
     height: 695px;
@@ -31,31 +34,38 @@ body{
 }
 
 .contenido_hero {
-    background-color: blue;
+    display: ;
+    background-color:#dd2c383f;
     padding: 10% 0% 0% 10%;
-    max-width: 40%;
+    max-width: 80%;
+    
 }
 
+.img_box {
+    display: inline;
+}
 .titulo_img{
-    max-width: 30%;
+    max-width: 25%;
+    
 }
 
 .titulo_box{
     display: inline-block;
-    
+    background-color:#31d8693f;
+    max-width: 30%;
 }
 .titulo{
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.05em;
 }
 
 .box-precio {
-    /* display: inline-block; */
+    display: inline-block;
     background-color: #DD2C38;
     color: rgba(231, 236, 239, 1);
-    width: 70px;
-    padding: 15px;
+    width: 50px;
+    padding: 10px;
 
 }
 
