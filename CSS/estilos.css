@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Big+Shoulders+Display:wght@300;400&display=swap');
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(25, 91, 140, 1);
+    color: rgba(231, 236, 239, 1);
+}
+
+
+.barra_nav{
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color:  white;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.hero{
+    background-image: url(../IMAGENES/Fondo_Hero.jpg);
+    background-position-x: 40%;
+    max-height: 100%;
+    height: 695px;
+    padding-bottom: 100px;
+    
+}
+
+.contenido_hero {
+    background-color: blue;
+    padding: 10% 0% 0% 10%;
+    max-width: 40%;
+}
+
+.titulo_img{
+    max-width: 30%;
+}
+
+.titulo_box{
+    display: inline-block;
+    
+}
+.titulo{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.05em;
+}
+
+.box-precio {
+    /* display: inline-block; */
+    background-color: #DD2C38;
+    color: rgba(231, 236, 239, 1);
+    width: 70px;
+    padding: 15px;
+
+}
+
+.icono-pentagono {
+    background-color: orange;
+    color: black;
+    height: 130px;
+    width: 130px;
+    
+}

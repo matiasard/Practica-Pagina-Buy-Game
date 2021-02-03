@@ -1,0 +1,24 @@
+.icono-pentagono {
+    background-color: orange;
+    color: white;
+    height: 130px;
+    width: 130px;
+    
+}
+
+.box-precio {
+    background-color: #DD2C38;
+    color: rgba(231, 236, 239, 1);
+    width: 70px;
+    padding: 15px;
+
+}
+
+/*
+// SCSS RGB 
+$alice-blue: rgba(231, 236, 239, 1);
+$lapis-lazuli: rgba(25, 91, 140, 1);
+$red-salsa: rgba(251, 54, 64, 1);
+$xiketic: rgba(21, 21, 34, 1);
+$rich-black-fogra-39: rgba(9, 3, 2, 1);
+*/
