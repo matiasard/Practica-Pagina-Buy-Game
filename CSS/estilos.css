@@ -10,23 +10,57 @@ body{
     color: rgba(231, 236, 239, 1);
 }
 
+/*/////////////////////////////////////////////
+/////////  HERO
+*/
 .nav {
     background-color: rgba(231, 236, 239, 0.15);
-    height: 90px;
+    /*height: 90px;*/
+    display: flex;
+    align-items: center; /* Centra los elemento de la class "NAV" */
 }
+/* Tamaño del Logo y espaciado de lado izquerdo */
+.logo-ms{
+    width: 5%;
+    height: 5%;
+    margin-left: 50px;
+    
+}
+
+/* Para quitar el margen de arriba del Nav */
+ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    width: 1300px;
+    height: 100%; /* ocupa todo el espacio que le da el div "NAV"*/
+    height: 90px; /* Movido dde la clase "NAV"*/
+    align-items: center;
+    justify-content: space-evenly;
+    /*justify-content: flex-end;*/
+    /*position: absolute;
+    left: 0px;*/
+}
+
 .barra_nav{
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
     font-size: 1em;
     color:  white;
     list-style: none;
-    display: inline-block;
+    /*isplay: inline-block;*/
     margin: 10px;
+    
 }
 
 .hero{
     background-image: url(../IMAGENES/Fondo_Hero_PS7.jpg);
     background-position-x: 40%;
+    background-size: 135%;
+    background-repeat: no-repeat;
     max-height: 100%;
     height: 695px;
     padding-bottom: 100px;
@@ -34,45 +68,186 @@ body{
 }
 
 .contenido_hero {
-    display: ;
-    background-color:#dd2c383f;
-    padding: 10% 0% 0% 10%;
-    max-width: 80%;
-    
+    display: flex;
+    /*background-color:#dd2c383f;*//* Color para identificar caja*/
+    margin: 10% 0% 0% 10%;
+    /*max-width: 80%;*/
+    /*max-width: 650px;*/
 }
 
 .img_box {
-    display: inline;
+    /* display: inline;*/
 }
 .titulo_img{
-    max-width: 25%;
-    
+    /*max-width: 20%;*/
+    width: 215px;
 }
 
 .titulo_box{
-    display: inline-block;
-    background-color:#31d8693f;
-    max-width: 30%;
+    /*display: inline-block;*/
+    /*background-color:#31d8693f;*//* Color para identificar caja*/
+    /*max-width: 30%;*/
+    width: 370px;
+    margin-left: 20px;
+    
 }
 .titulo{
     font-size: 40px;
     font-family: 'Bebas Neue', cursive;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.10em;
+    
 }
 
 .box-precio {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: medium;
     display: inline-block;
     background-color: #DD2C38;
     color: rgba(231, 236, 239, 1);
-    width: 50px;
+    width: 60px;
     padding: 10px;
-
+    
 }
 
+button{
+    
+    background-color: rgba(231, 236, 239, 0.3);;
+    border: blue;
+    margin-top: 30px;
+    height: 50px;
+}
+
+/*/////////////////////////////////////////////
+///////// CONTENEDOR . MAIN
+*/
+/* .main-container{
+    max-width: rem;
+    background: rgb(2,0,36);
+} */
+
+
+/*/////////////////////////////////////////////
+///////// SECTION - ABOUT
+*/
 .icono-pentagono {
     background-color: orange;
     color: black;
-    height: 130px;
-    width: 130px;
-    
+    height: 110px;
+    width: 110px;
+    margin: auto;
 }
+
+.about-h2{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.about__section{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.about__container{
+    width: 440px;
+    height: 300px;;
+    max-width: 310px;
+}
+
+
+/*/////////////////////////////////////////////
+///////// SEPARADOR
+*/
+.separador{
+    background-color: rgb(54, 54, 54);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.separador__h2{
+    padding: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.separador__hr1{
+    background-color: yellow;
+    width: 60px;
+    height: 1px;
+    position: absolute;
+    right: 35%;
+    top: 40%;
+}
+.separador__hr2{
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    background-color: white;
+    width: 60px;
+    height: 1px;
+}
+
+/*/////////////////////////////////////////////
+/////////  IMAGENES JUEGOS
+*/
+.contenedor-games{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+
+/*/////////////////////////////////////////////
+/////////  FOOTER - CONTACT
+*/
+.contact{
+    background-color: rgba(19, 19, 19, 0.884);
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 0.8em;
+}
+
+.contact__circle{
+    background-color: rgb(202, 116, 18);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.contact__p{
+    margin: auto 25px auto 5px;
+}
+
+/*/////////////////////////////////////////////
+/////////  FOOTER
+*/
+footer{
+    background-color: rgb(19, 19, 19);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer__container{
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.footer__ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: wrap column;
+    width: 250px;
+    /*background-color: rosybrown;*/
+}
+

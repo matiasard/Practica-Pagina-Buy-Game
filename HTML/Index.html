@@ -12,6 +12,7 @@
 <body>
     <header class="hero">
         <div class="nav">
+            <img class="logo-ms" src="../IMAGENES/Logo MatiaSard.png" alt="logo">
             <ul>
                 <li class="barra_nav">Home</li>
                 <li class="barra_nav">Servicio</li>
@@ -27,69 +28,74 @@
                     alt="Imagen-TW3" class="titulo_img">
             </div>
             <div class="titulo_box">
-                <h1 class="titulo">THE WITCHER III:<br> WILD HUNT</h1>
-                <div class="box-precio">$99.99</div>
+                <h1 class="titulo">THE WITCHER III:<br> WILD HUNT <span class="box-precio"><em>$99.99</em></span></h1>
+                <!-- <div class="box-precio">$99.99</div> -->
 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita facere consequuntur nemo quisquam
-                    reiciendis ipsam vitae necessitatibus.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita facere consequuntur nemo quisquam.
+                </p>
                 <button>GRAB YOUR COPY NOW</button>
             </div>
 
         </section>
     </header>
+    <div class="main-container">
+        <h2 class="about-h2">Lorem ipsum dolor sit amet consectetur.</h2>
 
-    <section>
-        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <section class="about__section">
 
-        <div>
-            <div class="icono-pentagono">icono</div>
-            <h3><Span>Play</Span> unlimited games</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vero inventore temporibus, sint sunt
-                soluta expedita iusto accusamus alias iste at pariatur doloribus consequatur autem nihil rem amet.
-                Aliquid, consequuntur!</p>
+            <div class="about__container">
+                <div class="icono-pentagono">icono</div>
+                <h3><Span class="about__span">Play</Span> unlimited games</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vero inventore temporibus, sint sunt
+                    soluta expedita...</p>
+            </div>
+            <div class="about__container">
+                <div class="icono-pentagono">icono</div>
+                <h3><Span class="about__span">Access</Span> early alpha & beta games</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vero inventore temporibus, sint sunt
+                    soluta expedita iusto accusamus alias iste...</p>
+            </div>
+            <div class="about__container">
+                <div class="icono-pentagono">icono</div>
+                <h3><Span>Unlock</Span> rewards & achievements</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vero inventore...</p>
+            </div>
+        </section>
+
+        <div class="separador">
+            <hr class="separador__hr1">
+            <h2 class="separador__h2">NEW RELEASES</h2>
+            <hr class="separador__hr2">
         </div>
-        <div>
-            <div class="icono-pentagono">icono</div>
-            <h3><Span>Access</Span> early alpha & beta games</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vero inventore temporibus, sint sunt
-                soluta expedita iusto accusamus alias iste at pariatur doloribus consequatur autem nihil rem amet.
-                Aliquid, consequuntur!</p>
+
+        <section class="contenedor-games">
+            <div class="box-imagenes">
+                <img class="contenedor-games__img" src="../IMAGENES/ciberpunk2077.jpg" alt="ciberpunk-2077">
+            </div>
+            <div class="box-imagenes">
+                <img class="contenedor-games__img" src="../IMAGENES/re7-village2.jpg" alt="the-medium">
+            </div>
+            <div class="box-imagenes">
+                <img class="contenedor-games__img" src="../IMAGENES/star-wars-battlefront2.jpg"
+                    alt="star-wars-battlefront2.jpg">
+            </div>
+            <div class="box-imagenes">
+                <img class="contenedor-games__img" src="../IMAGENES/ac-valhalla.jpg" alt="ac-valhalla.jpg">
+            </div>
+        </section>
+
+        <div class="contact">
+            <div class="contact__circle"></div>
+            <p class="contact__p">(+54) 3884458226</p>
+            <div class="contact__circle"></div>
+            <p class="contact__p">gabinex15@gmail.com</p>
         </div>
-        <div>
-            <div class="icono-pentagono">icono</div>
-            <h3><Span>Unlock</Span> rewards & achievements</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vero inventore temporibus, sint sunt
-                soluta expedita iusto accusamus alias iste at pariatur doloribus consequatur autem nihil rem amet.
-                Aliquid, consequuntur!</p>
-        </div>
-    </section>
-    <div class="separador">
-        <h2>NEW RELEASES</h2>
     </div>
-    <section class="contenedor-img">
-        <div class="box-imagenes">
-            <img class="img-game" src="../IMAGENES/ciberpunk2077.jpg" alt="ciberpunk-2077">
-        </div>
-        <div class="box-imagenes">
-            <img class="img-game" src="../IMAGENES/re7-village2.jpg" alt="the-medium">
-        </div>
-        <div class="box-imagenes">
-            <img class="img-game" src="../IMAGENES/star-wars-battlefront2.jpg" alt="star-wars-battlefront2.jpg">
-        </div>
-        <div class="box-imagenes">
-            <img class="img-game" src="../IMAGENES/ac-valhalla.jpg" alt="ac-valhalla.jpg">
-        </div>
-    </section>
-
-    <div class="separador-footer">
-        <p>icono-Telefono - 3884458226</p>
-        <p>icono-Correo - gabinex15@gmail.com</p>
-    </div>
-
+    
     <footer>
-        <div class="footer">
+        <div class="footer__container">
             <h3>services</h3>
-            <ul>
+            <ul class="footer__ul">
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum dolor</li>
                 <li>Lorem</li>
@@ -99,9 +105,9 @@
             </ul>
         </div>
 
-        <div class="footer">
+        <div class="footer__container">
             <h3>products</h3>
-            <ul>
+            <ul class="footer__ul">
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum dolor</li>
                 <li>Lorem</li>
@@ -111,9 +117,9 @@
             </ul>
         </div>
 
-        <div class="footer">
+        <div class="footer__container">
             <h3>account</h3>
-            <ul>
+            <ul class="footer__ul">
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum dolor</li>
                 <li>Lorem</li>
@@ -122,10 +128,9 @@
 
             </ul>
         </div>
-        <div class="footer">
+        <div class="footer__container">
             <h3>newsletter</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odit nisi sapiente soluta asperiores
-                corrupti rem.?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odit nisi.?</p>
         </div>
     </footer>
     <!--<p><strong>The Witcher: Wild Hunt</strong> es un juego de rol de mundo abierto de nueva generación con una
